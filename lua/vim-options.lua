@@ -4,6 +4,9 @@ vim.cmd("set tabstop=4")
 vim.cmd("set softtabstop=4")
 vim.cmd("set shiftwidth=4")
 
+-- Set line numbers (relative + absolute on current line)
+vim.cmd("set number relativenumber")
+
 -- Set Leader to SPACE
 vim.g.mapleader = " "
 
