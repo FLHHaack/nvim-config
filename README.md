@@ -19,6 +19,7 @@ Setup
     - alias vpe='nvim +cd\ ~/ws/vwg.services.oneplatform.envirnments'
     - alias vph='nvim +cd\ ~/ws/vwg.services.platform.helloworld'
     - alias vpa='nvim +cd\ ~/ws/vwg.services.oneplatform.automationprerequisites'
+    - alias ga='gcloud auth login && gcloud auth application-default login'
 - iTerm2
     - Catpuccin Theme for iTerm2
 - Hack Nerd Font & Select in iTerm2 (16pt)
