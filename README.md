@@ -9,6 +9,7 @@ Setup
 - Change Caps to be ctrl
 - aliase
     - alias k='kubectl'
+    - alias d='lazydocker'
     - alias g='lazygit'
     - alias v='nvim'
     - alias gpo='lazygit --path ~/ws/vwg.services.oneplatform'
@@ -20,6 +21,7 @@ Setup
     - alias vph='nvim +cd\ ~/ws/vwg.services.platform.helloworld'
     - alias vpa='nvim +cd\ ~/ws/vwg.services.oneplatform.automationprerequisites'
     - alias ga='gcloud auth login && gcloud auth application-default login'
+    - alias clear='clear && printf "\e[3J"'
 - iTerm2
     - Catpuccin Theme for iTerm2
 - Hack Nerd Font & Select in iTerm2 (16pt)
@@ -33,3 +35,4 @@ Setup
         - Formatter: stylua, prettier, black, isort
         - Diagnostics: eslint_d, rubocop
 - lazygit
+- lazydocker
