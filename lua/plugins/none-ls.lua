@@ -7,6 +7,7 @@ return {
 		local null_ls = require("null-ls")
 		null_ls.setup({
 			sources = {
+                -- Ensure the formatters / linters are installed using :Mason
 				null_ls.builtins.formatting.stylua,
 				null_ls.builtins.formatting.prettier,
 				null_ls.builtins.formatting.black,
